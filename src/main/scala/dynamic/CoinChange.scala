@@ -16,7 +16,7 @@ object CoinChange {
   type Possibilities = Long
   type CoinChange = (Change, Possibilities)
 
-  def estimateOneCaseCoin(change: Int, coinValue: Int, acc: List[CoinChange]): Long = {
+  private[dynamic] def estimateOneCaseCoin(change: Int, coinValue: Int, acc: List[CoinChange]): Long = {
 
     def checkNewCoin(change: Int, coinValue: Int): Long =
       if (change % coinValue == 0 && coinValue <= change) 1 else 0
