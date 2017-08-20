@@ -1,4 +1,4 @@
-package dynamic
+package algo.dynamic
 import annotation.tailrec
 
 object Equal {

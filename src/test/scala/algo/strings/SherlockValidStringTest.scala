@@ -1,4 +1,4 @@
-package strings
+package algo.strings
 
 import org.scalatest.{MustMatchers, WordSpec}
 

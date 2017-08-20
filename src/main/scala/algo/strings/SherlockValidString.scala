@@ -1,7 +1,6 @@
-package strings
+package algo.strings
 
 import scala.annotation.tailrec
-import scala.collection.mutable
 
 object SherlockValidString {
 

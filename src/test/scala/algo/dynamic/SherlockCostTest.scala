@@ -1,4 +1,4 @@
-package dynamic
+package algo.dynamic
 
 import java.io.ByteArrayInputStream
 import org.scalatest.{MustMatchers, WordSpec}

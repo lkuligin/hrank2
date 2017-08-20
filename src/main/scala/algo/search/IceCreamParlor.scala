@@ -1,8 +1,9 @@
-package search
+package algo.search
+
+import java.lang.Math.{max, min}
 
 import scala.annotation.tailrec
-import scala.collection.immutable.{HashMap}
-import Math.{max, min}
+import scala.collection.immutable.HashMap
 
 object IceCreamParlor {
 

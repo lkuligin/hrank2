@@ -1,4 +1,4 @@
-package search
+package algo.search
 
 import org.scalatest.{MustMatchers, WordSpec}
 
