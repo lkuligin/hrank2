@@ -2,6 +2,7 @@ package algo.dynamic
 
 import java.io.ByteArrayInputStream
 import org.scalatest.{MustMatchers, WordSpec}
+import CoinChange._
 
 class CoinChangeTest extends WordSpec with MustMatchers {
 
