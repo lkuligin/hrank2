@@ -21,6 +21,6 @@ object MisereNim {
     })
     sc.close()
 
-    (0 to t-1).foreach(x => if (solve(testCases(x))) println("First") else println("Second"))
+    (0 to t-1).foreach(x => println(if (solve(testCases(x))) "First" else "Second"))
   }
 }
